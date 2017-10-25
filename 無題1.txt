@@ -1,0 +1,83 @@
+■bootstrap3
+
+・参考文献
+http://bootstrap.hana87.club/getstart.html
+
+・bootstrap3インストール済
+
+
+
+================================--
+#03 Gridシステムを使ってみよう
+
+※最大画面じゃないと、グリッドシステムが表示されないかも
+
+■class="container" 中央ぞろえ
+
+■列12分割
+1)class="row"で囲む(行作成)
+2)class="col-sm-3"が合計12になるようにコンテンツを入れる
+
+
+	<div class="row">
+		<div class="col-sm-3" style="background: gray;">Side1</div>
+		<div class="col-sm-6" style="background: pink;">Main</div>
+		<div class="col-sm-3" style="background: gray;">Side2</div>
+	</div>
+</div>
+
+
+
+======================================
+ #04 レスポンシブWebデザインを使おう
+ 
+ class="col-sm-3"
+ ⇒sm
+ 
+・グリッドクラス
+http://getbootstrap.com/docs/3.3/css/
+　Bootstrapグリッドシステムには4つのクラスがあります。
+
+xs（電話機用）
+sm（タブレット用）
+md（デスクトップ用）
+lg（大型デスクトップの場合）
+ 
+
+・並列記載可能
+
+	<div class="row">
+		<div class="col-sm-3" style="background: gray;">Side1</div>
+		<div class="col-sm-6 col-xs-6" style="background: pink;">Main</div>
+		<div class="col-sm-3 col-xs-6" style="background: gray;">Side2</div>
+	</div>
+	
+⇒幅が小さいときはcol-sm-3が縦積み、col-xs-6が並列表記
+
+・表示・非表示の調整
+hidden-
+visable-
+		<div class="col-sm-3 hidden-xs" style="background: gray;">Side1</div>
+ 
+ 
+ =========================================
+ #06 formのスタイリングをしよう
+ 
+ <div class="form-group">で囲む
+ 
+ =========================================
+ 
+ =========================================
+ 
+ =========================================
+ 
+ =========================================
+ 
+ =========================================
+ 
+ =========================================
+ 
+ =========================================
+ 
+ =========================================
+ 

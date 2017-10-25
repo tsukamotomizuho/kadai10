@@ -1,0 +1,48 @@
+		body{
+			background: #ccffcc;
+
+		}
+		
+		.play_disp{
+			border: 6px solid #fc0;
+			border-radius: 10px;
+			margin: 30px 10px 10px;
+			background: #ffffcc;
+
+			
+		}
+		
+		p{
+			color: #a50;
+			text-align: left;
+			background-color: #ffffe0;    
+			padding: 15px;
+			display: inline-block;
+			border: 3px solid #fc0;
+			border-radius: 10px;
+			font-family:"HGP創英角ﾎﾟｯﾌﾟ体";
+		}
+		
+		img{
+			margin-right: auto;
+			width: 200px;
+			height: 320;
+			margin-bottom: 30px;
+			
+		}
+		
+		.toro_area{
+			text-align: right;
+			
+		}
+		
+		.room_name{
+			margin-left: 40px;
+			margin-bottom: 20px;
+			
+		}
+		
+		.select{
+			text-align: left;
+			
+		}
